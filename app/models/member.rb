@@ -17,4 +17,5 @@ class Member
   def self.clear 
     @@all = []
   end 
+  
 end 
