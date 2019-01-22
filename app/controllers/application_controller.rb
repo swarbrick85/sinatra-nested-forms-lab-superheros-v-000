@@ -12,7 +12,7 @@ class App < Sinatra::Base
     
     post '/teams' do 
       binding.pry
-      
+      @team = Team.new(params)
       erb :team 
     end 
 end
